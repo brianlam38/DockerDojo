@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+# package install
+
 RUN apt-get update && apt-get install -y \
     sudo \
     nano \
